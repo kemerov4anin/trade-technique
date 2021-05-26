@@ -1,2 +1,2 @@
-# trade-technique
+# XWay
 Test task
