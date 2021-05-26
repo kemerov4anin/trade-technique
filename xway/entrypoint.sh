@@ -15,6 +15,7 @@ python manage.py collectstatic --no-input
 python manage.py flush --no-input
 python manage.py makemigrations
 python manage.py migrate
-python manage.py initadmin $DJANGO_ADMIN_NAME $DJANGO_ADMIN_PASSWORD
+# python manage.py initadmin $DJANGO_ADMIN_NAME $DJANGO_ADMIN_PASSWORD
+python manage.py getdata
 
 exec "$@"
